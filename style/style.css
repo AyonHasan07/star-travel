@@ -188,3 +188,79 @@ section{
 .tour-img img{
     /* width: 100%; */
 }
+
+.destination .destination-text{
+    width: 55%;
+    max-width: 650px;
+    margin: 0 auto;
+
+}
+
+.destination-text .destination-head{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+    text-align: center;
+
+}
+
+.destination-text .destination-para{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 40px;
+}
+
+
+.grid img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+/* .grid-item4 img{
+    
+} */
+.destination .grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid .grid-item1{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+.grid .grid-item2{
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+
+.grid .grid-item3{
+    grid-column: 1/span 4;
+    grid-row: 2/span 2 ;
+}
+
+.grid .grid-item4{
+    grid-column: 5/span 6;
+    grid-row: 2/span 2 ;
+}
+
+.grid .grid-item5{
+    grid-column: 11/span 2;
+    grid-row: 2/span 2 ;
+}
+
+.grid .grid-item6{
+    grid-column: 1/span 5;
+    grid-row: 3/span 3 ;
+}
+
+.grid .grid-item7{
+    grid-column: 6/span 7;
+    grid-row: 3/span 3 ;
+}
