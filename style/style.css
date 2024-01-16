@@ -141,7 +141,6 @@ background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 
     border-radius: 8px;
     border: none;
     text-align: center;
-    fo
 }
 
 .form-section select option{
@@ -211,9 +210,6 @@ section{
     border: 0;
 }
 
-.tour-img img{
-    /* width: 100%; */
-}
 
 .destination .destination-text{
     width: 55%;
@@ -348,6 +344,37 @@ section{
 
 /* <!-- service section end --> */
 
+/* space travel */
+.space .space-text{
+    width: 55%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.space-text .space-head{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+    text-align: center;
+}
+.space .space-img{
+    display: flex;
+    justify-content: space-between;
+}
+.space-img .img{
+    width: 49%;
+    /* height: 300px; */
+    
+
+}
+.space-img img{
+    width: 100%;
+    height: 300px;
+    
+}
+
 
 /* information section */
 
@@ -464,9 +491,6 @@ footer{
     margin: 0 auto;
 }
 
-.foot-icon{
-    /* padding-bottom: 50px; */
-}
 
 .foot hr{
     margin: 50px 0;

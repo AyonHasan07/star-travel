@@ -2,6 +2,7 @@
     nav,
     .menu > ul,
     .info,
+    .space .space-img,
     .tour-container{
         flex-direction: column;
     }
@@ -75,6 +76,15 @@
     .grid .grid-item7{
         grid-column: 1/span 1;
         grid-row: 7/span 1 ;
+    }
+    .space-img .img{
+        width: 100%;
+    }
+    .space .space-text{
+        width: 95%;
+    }
+    .service .service-text{
+        width: 95%;
     }
     .service .service-flex{
         flex-direction: column;
