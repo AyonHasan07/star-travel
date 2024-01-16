@@ -1,6 +1,7 @@
 @media screen and (max-width:600px) {
     nav,
     .menu > ul,
+    .info,
     .tour-container{
         flex-direction: column;
     }
@@ -77,6 +78,22 @@
     }
     .service .service-para{
         font-size: .875rem;
+    }
+    .info .info-text{
+        width: 85%;
+    }
+    .info .info-img{
+        width: 100%;
+    }
+    .info-section .save{
+        left: 57%;
+        bottom: 130px;
+    }
+    .info-section .save1{
+        font-size: 1rem;
+    }
+    .info-section .save2{
+        font-size: 1.25rem;
     }
 
 }

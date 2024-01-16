@@ -8,6 +8,7 @@
 
 body{
     font-family: "Mulish", sans-serif;
+    background: #FFF;
 }
 
 nav{
@@ -319,6 +320,133 @@ section{
     padding-bottom: 15px;
 }
 
-.service-box .service-p{
+
+/* <!-- service section end --> */
+
+
+/* information section */
+
+.info .info-text{
+    width: 36%;
+    max-width: 474px;
+    padding: 30px;
+    border-radius: 16px;
+
+
+    border: 1px solid #FF5400;
+
+}
+
+.info-text .info-head{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 16px;
+
+}
+
+.info-text .info-para{
+    padding-bottom: 24px;
+}
+
+.info-text input, button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 0;
+
+}
+.info-text form{
+    padding: 24px 0 40px 0;
+}
+
+.info-text form input{
+    width: 92%;
     
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.info-text form button{
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.info .info-img{
+    width: 57%;
+    max-width:672px ;
+    /* padding-bottom: 140px; */
+}
+
+.info-img img{
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 24px;
+}
+
+.info-section .save{
+    position: relative;
+    bottom: 150px;
+    left: 72%;
+    color: #FFF;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 40%;
+    max-width: 324px;
+    /* height: 80px; */
+    text-align: center;
+    align-items: center;
+    transform: rotate(-19.628deg);
+}
+
+.info-section .save1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.info-section .save2{
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px 0;
+}
+
+.foot{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.foot .logo{
+    display: flex;
+    justify-content: center;
+}
+
+.foot .foot-para{
+    width: 80%;
+    padding: 15px 0 32px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.foot-icon{
+    /* padding-bottom: 50px; */
+}
+
+.foot hr{
+    margin: 50px 0;
+}
+
+.foot .copy{
+    font-weight: 300;
 }
