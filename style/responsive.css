@@ -32,7 +32,7 @@
         width: 100%;
     }
     .destination .destination-text{
-        width: 80%;
+        width: 90%;
     }
     .destination-text .destination-head{
         font-size: 1.25rem;
@@ -76,6 +76,9 @@
     .grid .grid-item7{
         grid-column: 1/span 1;
         grid-row: 7/span 1 ;
+    }
+    .grid .n{
+        top: 50%;
     }
     .space-img .img{
         width: 100%;
