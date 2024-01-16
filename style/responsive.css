@@ -62,4 +62,21 @@
         grid-column: 1/span 1;
         grid-row: 7/span 1 ;
     }
+    .service .service-flex{
+        flex-direction: column;
+    }
+    .service .service-box{
+        width: 85%;
+    }
+    .service #last-box{
+        /* margin: 0 auto; */
+        margin: auto;   
+    }
+    .service .service-head{
+        font-size: 1.25rem;
+    }
+    .service .service-para{
+        font-size: .875rem;
+    }
+
 }
