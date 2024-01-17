@@ -121,5 +121,8 @@
     .info-section .save2{
         font-size: 1.25rem;
     }
+    .foot{
+        width: 95%;
+    }
 
 }
